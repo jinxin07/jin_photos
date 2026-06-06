@@ -1,0 +1,15 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Next.js Build and Cache Outputs
+.next/
+out/
+build/
+
+# Local Environment Variables
+.env*.local
+
+# Operating System Garbage
+.DS_Store
+Thumbs.db
