@@ -66,7 +66,7 @@ export default function Portfolio() {
           </div>
 
           <div className="flex flex-col gap-4 group cursor-pointer" id="sport">
-            <div className="aspect-[2/3 ] overflow-hidden bg-neutral-900">
+            <div className="aspect-[2/3] overflow-hidden bg-neutral-900">
               <img 
                 src="/sport-placeholder.jpg" 
                 alt="Sports Photography" 
