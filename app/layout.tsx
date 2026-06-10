@@ -1,39 +1,23 @@
-import type { Metadata } from "next"
-import { Inter } from "next/font/google"
-import "./globals.css"
-import { ThemeProvider } from "@/components/theme-provider"
-import Header from "@/components/header"
-import Footer from "@/components/footer"
-import SoundEffects from "@/components/sound-effects"
-import SafariThemeColor from "@/components/safari-theme-color"
+import './globals.css';
+import { Inter } from 'next/font/google';
 
-const inter = Inter({
-  subsets: ["latin"],
-  variable: "--font-inter",
-})
+const inter = Inter({ subsets: ['latin'] });
 
-export const metadata: Metadata = {
-  title: "Photography Portfolio by Xin Jin",
-  description: "The art of candid moments on the street, honest expressions in portraiture, and split-second action in sports.",
-  // Set initial theme-color meta tag for iOS Safari
-  themeColor: [
-    { media: '(prefers-color-scheme: light)', color: '#ffffff' },
-    { media: '(prefers-color-scheme: dark)', color: '#000000' },
-  ],
-}
+export const metadata = {
+  title: 'Xin Jin | Photography Portfolio',
+  description: 'Visual storytelling and professional photography portfolio.',
+};
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
-    <html lang="en" className={inter.variable} suppressHydrationWarning>
-      <body>
-        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-          <SafariThemeColor />
-          <SoundEffects />
-          <Header />
-          <main>{children}</main>
-          <Footer />
-        </ThemeProvider>
+    <html lang="en" className="scroll-smooth">
+      <body className={`${inter.className} bg-black text-white antialiased`}>
+        {children}
       </body>
     </html>
-  )
+  );
 }

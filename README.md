@@ -1,101 +1,36 @@
-# Next.js Photography Portfolio | X100
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-![X100 - Next.js Photography Portfolio](https://github.com/lilxyzz/x100/blob/main/public/X100-cover.webp)
+## Getting Started
 
-A modern, responsive photography portfolio built with Next.js 15+, featuring dynamic collections, smooth animations, and a beautiful dark/light theme.
+First, run the development server:
 
-I created this theme as I’ve been considering purchasing a camera recently, and it aligned with some ideas I wanted to explore. I may contribute further updates in the future, but can’t make any guarantees at this stage. Enjoy 🤙
-
-## 🌟 Features
-
-- **Dynamic Photo Collections**: Automatically loads and displays photos from organized folders
-- **Responsive Design**: Fully responsive layout optimized for all devices
-- **Dark/Light Theme**: Elegant theme switching with smooth transitions
-- **Modern Animations**: Powered by Framer Motion for smooth interactions
-
-## 🚀 Tech Stack
-
-- **Framework**: Next.js 15 (App Router)
-- **React**: 19
-- **Styling**: Tailwind CSS
-- **Animations**: Framer Motion
-- **Icons**: Lucide Icons
-- **Formspree**: Contact Form
-- **React Photo Album**: [Masonry Layout](https://react-photo-album.com/examples/masonry)
-
-## 🛠️ Setup Instructions
-
-1. **Clone the repository**
-
-   ```bash
-   git clone [https://github.com/lilxyzz/x100]
-   cd x100
-   ```
-
-2. **Install dependencies**
-
-   ```bash
-   npm install
-   # or
-   yarn install
-   ```
-
-3. **Run the development server**
-   ```bash
-   npm run dev
-   # or
-   yarn dev
-   ```
-
-Open http://localhost:3000 with your browser to see the result.
-
-## 📸 Photo Collections
-
-The portfolio is organized into collections:
-
-- Urban Portraits
-- Tokyo
-- New Zealand
-- Iceland
-- Bali
-- Morocco
-
-Each collection should be placed in its corresponding folder in the `public` directory. Update image Validation /scripts/validate-images.ts
-
-## 🎨 Theme Customization
-
-### Colors
-
-The theme colors are defined in `globals.css` using CSS variables. Modify the root variables to customize the color scheme:
-
-```css
-:root {
-  --background: 0 0% 100%;
-  --foreground: 0 0% 0%;
-  /* ... other color variables */
-}
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-## 🌓 Dark Mode
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-The theme toggle is implemented using `next-themes` and includes:
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-- System preference detection
-- Smooth transitions
-- Persistent theme selection
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## 📱 Responsive Design
+## Learn More
 
-The portfolio is fully responsive with breakpoints:
+To learn more about Next.js, take a look at the following resources:
 
-- Mobile: < 768px
-- Tablet: 768px - 1024px
-- Desktop: > 1024px
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-## 📄 License
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+## Deploy on Vercel
 
-## 🤝 Contributing
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
