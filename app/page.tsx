@@ -8,11 +8,11 @@ export default function Portfolio() {
           Xin Jin <span className="font-bold"> </span>
         </div>
         <nav className="flex flex-wrap justify-center gap-6 text-xs md:text-sm font-medium tracking-widest uppercase">
-          <a href="#about" className="hover:text-gray-400 transition-colors">About Me</a>
-          <a href="#street" className="hover:text-gray-400 transition-colors">Street</a>
-          <a href="#portrait" className="hover:text-gray-400 transition-colors">Portraits</a>
-          <a href="#sport" className="hover:text-gray-400 transition-colors">Sports</a>
-          <a href="#contact" className="hover:text-gray-400 transition-colors">Contact Me</a>
+          <a href="about" className="hover:text-gray-400 transition-colors">About Me</a>
+          <a href="street" className="hover:text-gray-400 transition-colors">Street</a>
+          <a href="portrait" className="hover:text-gray-400 transition-colors">Portraits</a>
+          <a href="sport" className="hover:text-gray-400 transition-colors">Sports</a>
+          <a href="contact" className="hover:text-gray-400 transition-colors">Contact Me</a>
         </nav>
       </header>
 
@@ -46,7 +46,7 @@ export default function Portfolio() {
           <div className="flex flex-col gap-4 group cursor-pointer" id="street">
             <div className="aspect-[2/3] overflow-hidden bg-neutral-900">
               <img 
-                src="/street-placeholder.jpg" 
+                src="/Street/P1011623.jpg" 
                 alt="Street Photography" 
                 className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
               />
@@ -57,7 +57,7 @@ export default function Portfolio() {
           <div className="flex flex-col gap-4 group cursor-pointer" id="portrait">
             <div className="aspect-[2/3] overflow-hidden bg-neutral-900">
               <img 
-                src="/portrait-placeholder.jpg" 
+                src="/Portraits/P1012823.jpg" 
                 alt="Portrait Photography" 
                 className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
               />
@@ -68,7 +68,7 @@ export default function Portfolio() {
           <div className="flex flex-col gap-4 group cursor-pointer" id="sport">
             <div className="aspect-[2/3] overflow-hidden bg-neutral-900">
               <img 
-                src="/sport-placeholder.jpg" 
+                src="/Sports/DSCF4265.JPG"
                 alt="Sports Photography" 
                 className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
               />
@@ -81,46 +81,6 @@ export default function Portfolio() {
 
       {/* Footer Section */}
       <footer id="contact" className="w-full bg-[#111111] pt-20 pb-8 px-6 mt-auto">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12 mb-16 text-sm text-neutral-400">
-          
-          <div>
-            <h4 className="text-white text-lg mb-6 uppercase tracking-widest">General</h4>
-            <ul className="space-y-4">
-              <li><a href="#" className="hover:text-white transition-colors">Light Theme</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Prices</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Downloads</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Sitemap</a></li>
-            </ul>
-          </div>
-
-          <div>
-            <h4 className="text-white text-lg mb-6 uppercase tracking-widest">Legal</h4>
-            <ul className="space-y-4">
-              <li><a href="#" className="hover:text-white transition-colors">Imprint</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Privacy Policy</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Terms & Conditions</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Cookie Settings</a></li>
-            </ul>
-          </div>
-
-          <div>
-            <h4 className="text-white text-lg mb-6 uppercase tracking-widest">Products</h4>
-            <ul className="space-y-4">
-              <li><a href="#" className="hover:text-white transition-colors">Vouchers</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Wall Calendar</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Photo API</a></li>
-            </ul>
-          </div>
-
-          <div>
-            <h4 className="text-white text-lg mb-6 uppercase tracking-widest">Links</h4>
-            <ul className="space-y-4">
-              <li><a href="#" className="hover:text-white transition-colors">Instagram: @echoes.by.nix</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">www.jin.pt</a></li>
-            </ul>
-          </div>
-
-        </div>
 
         <div className="max-w-7xl mx-auto text-center border-t border-neutral-800 pt-8 text-neutral-500 text-sm">
           <p>&copy; Xin Jin Photography, 2026</p>
