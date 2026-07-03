@@ -9,9 +9,9 @@ export default function SportsGalleryPage() {
   // Update these strings to match the exact names of the files inside public/Sports/
   // Match letter casing (e.g., .jpg vs .JPG) identically to avoid production 404 errors
   const photos = [
-    '/Sports/P1045724.JPG',    
+    '/Sports/P1045724.jpg',    
     '/Sports/P1034810.JPG',
-    '/Sports/DSCF2268.JPG',          // Example placeholders matching your style
+    '/Sports/DSCF2268.JPG',
     '/Sports/DSCF1774.JPG',    
     '/Sports/DSCF2306.JPG',
     '/Sports/DSCF4265.JPG',
@@ -20,7 +20,7 @@ export default function SportsGalleryPage() {
     '/Sports/P1067052 (3).jpg',    
     '/Sports/P1045196.JPG',
     '/Sports/P1045497.JPG',
-    '/Sports/P1045795.JPG',
+    '/Sports/P1045795.jpg',
   ];
 
   return (

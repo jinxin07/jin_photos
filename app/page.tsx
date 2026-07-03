@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function Portfolio() {
   return (
     <div className="min-h-screen flex flex-col bg-[#1a1a1a] text-white font-sans">
@@ -39,45 +41,45 @@ export default function Portfolio() {
         </div>
       </section>
 
-      {/* Gallery Section */}
-      <section id="gallery" className="w-full py-24 px-6 max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full">
-          
-          <div className="flex flex-col gap-4 group cursor-pointer" id="street">
-            <div className="aspect-[2/3] overflow-hidden bg-neutral-900">
-              <img 
-                src="/Street/P1011623.jpg" 
-                alt="Street Photography" 
-                className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
-              />
-            </div>
-            <h3 className="text-lg font-medium tracking-wide">Street</h3>
-          </div>
+        {/* Gallery Section */}
+          <section id="gallery" className="w-full py-24 px-6 max-w-7xl mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full">
+              
+              <Link href="/street" className="flex flex-col gap-4 group cursor-pointer" id="street">
+                <div className="aspect-[2/3] overflow-hidden bg-neutral-900">
+                  <img 
+                    src="/Street/P1011623.jpg" 
+                    alt="Street Photography" 
+                    className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
+                  />
+                </div>
+                <h3 className="text-lg font-medium tracking-wide">Street</h3>
+              </Link>
 
-          <div className="flex flex-col gap-4 group cursor-pointer" id="portrait">
-            <div className="aspect-[2/3] overflow-hidden bg-neutral-900">
-              <img 
-                src="/Portraits/P1012823.jpg" 
-                alt="Portrait Photography" 
-                className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
-              />
-            </div>
-            <h3 className="text-lg font-medium tracking-wide">Portraits</h3>
-          </div>
+              <Link href="/portrait" className="flex flex-col gap-4 group cursor-pointer" id="portrait">
+                <div className="aspect-[2/3] overflow-hidden bg-neutral-900">
+                  <img 
+                    src="/Portraits/P1012823.jpg" 
+                    alt="Portrait Photography" 
+                    className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
+                  />
+                </div>
+                <h3 className="text-lg font-medium tracking-wide">Portraits</h3>
+              </Link>
 
-          <div className="flex flex-col gap-4 group cursor-pointer" id="sport">
-            <div className="aspect-[2/3] overflow-hidden bg-neutral-900">
-              <img 
-                src="/Sports/DSCF4265.JPG"
-                alt="Sports Photography" 
-                className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
-              />
-            </div>
-            <h3 className="text-lg font-medium tracking-wide">Sports</h3>
-          </div>
+              <Link href="/sport" className="flex flex-col gap-4 group cursor-pointer" id="sport">
+                <div className="aspect-[2/3] overflow-hidden bg-neutral-900">
+                  <img 
+                    src="/Sports/DSCF4265.JPG"
+                    alt="Sports Photography" 
+                    className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
+                  />
+                </div>
+                <h3 className="text-lg font-medium tracking-wide">Sports</h3>
+              </Link>
 
-        </div>
-      </section>
+            </div>
+          </section>
 
       {/* Footer Section */}
       <footer id="contact" className="w-full bg-[#111111] pt-20 pb-8 px-6 mt-auto">
