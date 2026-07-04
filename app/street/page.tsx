@@ -23,18 +23,18 @@ export default function StreetGalleryPage() {
     <div className="min-h-screen bg-black text-white font-sans flex flex-col">
       
       {/* Header */}
-      <header className="w-full bg-black/90 backdrop-blur-sm border-b border-white/10 px-8 py-6 flex items-center justify-between z-40">
-        <Link href="/" className="text-xl font-medium tracking-widest uppercase">
-          Xin Jin
+        <header className="w-full bg-black/80 backdrop-blur-sm border-b border-white/10 px-4 md:px-8 py-6 flex flex-col sm:flex-row gap-4 items-center justify-between z-40 relative">
+        <Link href="/" className="text-xl font-medium tracking-widest uppercase whitespace-nowrap">
+            Xin Jin
         </Link>
-        <nav className="flex items-center gap-8 text-xs font-medium tracking-widest uppercase text-white/80">
-          <Link href="/about" className="hover:text-white transition-colors">About Me</Link>
-          <Link href="/street" className="text-white border-b border-white pb-1">Street</Link>
-          <Link href="/portrait" className="hover:text-white transition-colors">Portraits</Link>
-          <Link href="/sport" className="hover:text-white transition-colors">Sports</Link>
-          <Link href="/contact" className="hover:text-white transition-colors">Contact Me</Link>
+        <nav className="flex items-center justify-center flex-wrap gap-x-4 gap-y-2 md:gap-8 text-[10px] sm:text-xs font-medium tracking-widest uppercase text-white/80">
+            <Link href="/about" className="hover:text-white transition-colors">About Me</Link>
+            <Link href="/street" className="hover:text-white transition-colors">Street</Link>
+            <Link href="/portrait" className="hover:text-white transition-colors">Portraits</Link>
+            <Link href="/sport" className="hover:text-white transition-colors">Sports</Link>
+            <Link href="/contact" className="hover:text-white transition-colors">Contact Me</Link>
         </nav>
-      </header>
+        </header>
 
       {/* Main Grid Workspace */}
       <main className="flex-grow w-full px-4 py-12 max-w-[1600px] mx-auto">
