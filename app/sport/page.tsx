@@ -17,7 +17,7 @@ export default function SportsGalleryPage() {
     '/Sports/DSCF4265.JPG',
     '/Sports/DSCF4642.JPG',
     '/Sports/DSCF4999.JPG',
-    '/Sports/P1067052 (3).jpg',    
+    '/Sports/P1067052.jpg',    
     '/Sports/P1045196.JPG',
     '/Sports/P1045497.JPG',
     '/Sports/P1045795.jpg',

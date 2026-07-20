@@ -12,7 +12,7 @@ export default function StreetGalleryPage() {
     '/Street/P1010883.jpg',
     '/Street/P1010936.jpg',
     '/Street/P1011623.jpg',
-    '/Street/P1022978 (1).jpg',
+    '/Street/P1022978.jpg',
     '/Street/P1032734.jpg',
     '/Street/P1043739.jpg',
     '/Street/DSCF5972.JPG',
