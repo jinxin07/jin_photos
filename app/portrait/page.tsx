@@ -8,16 +8,17 @@ export default function GallerySubPage() {
 
   // Replace placeholders with your real asset paths (8-10 images)
 const photos = [
-    '/Portraits/P1012823.jpg',
     '/Portraits/DSCF1587.JPG',
-    '/Portraits/P1045065.jpg',
     '/Portraits/DSCF1541.JPG',
-    '/Portraits/DSCF3546.JPG',
     '/Portraits/DSCF3620.JPG',
+    '/Portraits/P1045065.jpg',
+    '/Portraits/DSCF6336.JPG',
     '/Portraits/DSCF3632.JPG',
-    '/Portraits/P1023150 (1).jpg',    
-    '/Portraits/P1032933.jpg',
+    '/Portraits/P1023150.jpg',
     '/Portraits/P1045356.jpg',
+    '/Portraits/P1012823.jpg',
+    '/Portraits/P1032933.jpg',
+    '/Portraits/DSCF3546.JPG',    
   ];
 
   return (
